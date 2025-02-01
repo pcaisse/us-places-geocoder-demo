@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo of us-places-geocoder npm package</title>
+    <link href="vendor/maplibre-gl.css" rel="stylesheet" />
+    <link href="main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>U.S. Places Geocoder Demo</h1>
+      <div id="search" class="search">
+        <input
+          id="search-terms"
+          class="search-terms"
+          type="text"
+          placeholder="Search for city/county/state"
+        />
+        <ul id="search-results" class="search-results"></ul>
+      </div>
+    </header>
+    <main class="main">
+      <div class="map-container">
+        <div id="map" class="map"></div>
+      </div>
+    </main>
+    <script type="module" src="bundle.js"></script>
+  </body>
+</html>

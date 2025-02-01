@@ -1,0 +1,20 @@
+{
+  "name": "us-places-geocoder-demo",
+  "version": "0.1.0",
+  "description": "Demo of us-places-geocoder npm package",
+  "scripts": {
+    "build": "tsc && esbuild src/index.ts --bundle --define:BASEMAP_STYLE=\\\"$BASEMAP_STYLE\\\" --minify --sourcemap --outfile=static/bundle.js",
+    "start": "node server.js",
+    "postinstall": "mkdir -p static/vendor && cp node_modules/maplibre-gl/dist/maplibre-gl.css static/vendor/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.1.0",
+    "us-places-geocoder": "^0.4.0"
+  }
+}
