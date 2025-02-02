@@ -1,6 +1,6 @@
 # U.S. Places Geocoder Demo
 
-Demo of [us-places-geocoder](https://www.npmjs.com/package/us-places-geocoder) npm package.
+Demo of `us-places-geocoder` npm package: https://pcaisse.github.io/us-places-geocoder-demo/.
 
 ## Running Locally
 
