@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-start;
   align-items: center;
   padding: 0.95rem 2rem;
+  gap: 30px;
 }
 
 .main {
@@ -45,10 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   flex: 1 auto;
   border: 4px solid #eaeaed;
-}
-
-#search {
-  margin-left: 40px;
 }
 
 .search-terms {
