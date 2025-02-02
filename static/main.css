@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-terms {
   border: 1px solid #ccc;
-  border-radius: 4;
+  border-radius: 4px;
   font-size: 1.15rem;
   line-height: 1.5rem;
   padding: 0.5rem 1rem;
