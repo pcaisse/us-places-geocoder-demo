@@ -106,7 +106,7 @@ function selectSearchResult(result: {
 }
 
 searchTermsElem.addEventListener("focus", () => {
-  searchResultsElem.style.display = "block";
+  searchAndUpdateResults(searchTermsElem.value);
 });
 searchTermsElem.addEventListener("blur", (e: FocusEvent) => {
   if (e.target instanceof HTMLElement && e.target.id !== "search-terms") {
