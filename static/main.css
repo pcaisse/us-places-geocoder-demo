@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .search-results {
   display: none;
   margin-top: 0;
+  border: 1px solid #ccc;
   position: absolute;
   list-style: none;
   z-index: 2;
@@ -74,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-result-items {
   margin: 0;
+  border-top: 1px solid #ccc;
   padding: 10px;
   cursor: pointer;
 }
